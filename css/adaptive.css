@@ -1,0 +1,1339 @@
+@media screen and (max-width:1200px) {
+    .main {
+        padding-bottom: 0;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .main-img {
+        width: 100%;
+        height: 100%;
+        right: -7px;
+        background-image: url("../img/main_img.png");
+        background-repeat: no-repeat;
+    }
+
+    .main-img img {
+        transform: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-info-title,
+    .main-info-text {
+        color: rgb(255, 255, 255);
+    }
+
+    .main-img svg {
+        bottom: 30%;
+        left: 58%;
+    }
+
+    .main-img-info-date {
+        bottom: 22%;
+        left: 58%;
+    }
+
+    .main-img-info-price {
+        bottom: 47%;
+        left: 65%;
+    }
+
+    .main-img-info-places {
+        position: absolute;
+        bottom: 51%;
+        right: 9%;
+    }
+
+    .gallery .container {
+        padding-left: 25px;
+    }
+
+}
+
+
+@media screen and (max-width:1180px) {
+
+    .iceland-block {
+        grid-column-gap: 110px;
+    }
+
+    .advantages-items-desktop {
+        transform: translateX(-35%)
+    }
+
+    .advantage-item {
+        width: 195px;
+    }
+
+    .advantage-item:nth-child(6) {
+        right: 3%;
+    }
+
+    .container.attraction {
+        grid-column-gap: 110px;
+    }
+
+    .gallery-item {
+        grid-template-columns: 320px 450px 280px;
+        grid-column-gap: 5px;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    .advantages-items-desktop {
+        transform: translateX(-38%);
+    }
+}
+
+@media screen and (max-width:1108px) {
+    .advantage-item:nth-child(3) {
+        left: 7%;
+    }
+
+    .advantage-item:nth-child(4) {
+        left: 32%;
+    }
+
+    .advantage-item:nth-child(5) {
+        left: 61%;
+    }
+
+    .advantage-item:nth-child(6) {
+        right: 0%;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+
+    .advantages-items-desktop {
+        transform: translateX(-38%);
+    }
+
+    .gallery-item {
+        grid-template-columns: 300px 430px 250px;
+        grid-column-gap: 15px;
+    }
+
+    .gallery-item-grid-two {
+        grid-template-columns: 180px 235px;
+        grid-column-gap: 10px;
+    }
+}
+
+
+@media screen and (max-width:1080px) {
+
+    .iceland-block {
+        grid-column-gap: 80px;
+    }
+
+    .advantages-items-desktop {
+        transform: translateX(-41%);
+    }
+
+    .advantage-item:nth-child(3) {
+        left: 4%;
+    }
+
+    .advantage-item:nth-child(4) {
+        left: 28%;
+    }
+
+    .advantage-item:nth-child(5) {
+        left: 58%;
+    }
+
+    .container.attraction {
+        grid-column-gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .advantages-items-desktop {
+        transform: translateX(-43%);
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .advantages-items-desktop {
+        transform: translateX(-45%);
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .advantages-items-desktop {
+        transform: translateX(-44%);
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .iceland-block {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+
+    .advantages-items .advantages-items-desktop {
+        transform: translateX(-49%)
+    }
+
+    .container.attraction {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+    .program-item {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: none;
+    }
+
+    .program-items-img img {
+        left: 10%;
+    }
+
+    .gallery-items.desktop {
+        display: none;
+    }
+
+    .gallery-items.tablet {
+        display: block;
+    }
+}
+
+@media screen and (max-width:999px) {
+    .main .container {
+        height: 1100px;
+    }
+
+    .main-info-text {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: -50%;
+        color: #2c2c2c;
+    }
+
+    .main-info-text span {
+        color: #2c2c2c;
+    }
+
+    .main-info-buttons-button.btn-black {
+        position: absolute;
+        bottom: -110%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .main-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-img img {
+        opacity: 0;
+    }
+
+    .main-img svg {
+        bottom: 18%;
+        left: 34%;
+    }
+
+    .main-img-info-date {
+        bottom: 13%;
+        left: 33%;
+    }
+
+    .main-img-info-places {
+        bottom: 27%;
+        right: 46%;
+    }
+
+    .main-img-info-price {
+        bottom: 29%;
+        left: 66%;
+    }
+
+    .iceland {
+        padding-bottom: 100px;
+    }
+
+    .iceland .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iceland-block {
+        width: 560px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iceland-block-info-title {
+        text-align: center;
+        order: 1;
+    }
+
+    .iceland-block-img {
+        order: 2;
+    }
+
+    .iceland-block-info-text {
+        order: 3;
+        margin-bottom: 50px;
+        margin-left: 60px;
+    }
+
+    .advantages-items {
+        height: 990px;
+    }
+
+    .advantages-items .advantages-items-desktop {
+        display: none;
+    }
+
+    .advantages-items-mobile {
+        display: block;
+        transform: translateX(-10%);
+    }
+
+    .advantage-item {
+        width: 260px;
+    }
+
+    .advantage-item:nth-child(3) {
+        left: 35%;
+    }
+
+    .advantage-item:nth-child(4) {
+        top: 27%;
+        left: 35%;
+    }
+
+    .advantage-item:nth-child(5) {
+        top: 50%;
+        left: 35%;
+    }
+
+    .advantage-item:nth-child(6) {
+        bottom: -6%;
+        left: 35%;
+    }
+
+    .advantage-item:nth-child(4) .advantage-item-number {
+        margin-top: 10px;
+    }
+
+    .advantage-item:nth-child(6) .advantage-item-number {
+        margin-top: 10px;
+    }
+
+    .advantage-item-number {
+        margin-bottom: 10px;
+    }
+
+    .advantage-item-title {
+        margin-bottom: 10px;
+    }
+
+    .container.attraction {
+        grid-template-columns: 500px;
+        grid-template-rows: 497px 500px;
+        justify-content: center;
+    }
+
+    .program-items {
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program-item {
+        height: 800px;
+        position: relative;
+    }
+
+    .program-item.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .program-item-text {
+        width: 100%;
+        position: static;
+    }
+
+    .program-item-text-day {
+        position: absolute;
+        top: 0;
+    }
+
+    .program-item-text-name {
+        position: absolute;
+        top: 10%;
+    }
+
+    .program-items-img {
+        margin-top: 35%;
+    }
+
+    .program-item-text-about {
+        position: absolute;
+        bottom: -5%;
+    }
+
+    .program-item-btn {
+        left: 30%;
+    }
+
+    .program-item-text-link {
+        left: 30%;
+    }
+
+    .reviews-user {
+        gap: 20px;
+        grid-template-columns: 50% 50%;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .advantages-items-mobile {
+        transform: translateX(-12%);
+    }
+}
+
+@media screen and (max-width:862px) {
+    .main-info-text {
+        bottom: -37%;
+    }
+
+    .main-img-info-price {
+        left: 69%;
+    }
+
+    .main-img-info-places {
+        right: 44%;
+    }
+
+    .main-info-buttons-button.btn-black {
+        bottom: -85%;
+    }
+
+    .slick-prev {
+        left: 43%;
+    }
+
+    .slick-next {
+        right: 43%;
+    }
+
+    .program-item-btn {
+        left: 25%;
+    }
+
+    .reviews-user {
+        padding: 30px;
+        grid-template-columns: 50% 47%;
+    }
+
+    .reviews-user-img {
+        width: 100%;
+        height: 100%;
+        grid-row: span 2;
+    }
+
+    .reviews-user-img img {
+        width: 100%;
+        height: 100%
+    }
+
+    .reviews-user-info-name {
+        margin-bottom: 10px;
+    }
+
+    .reviews-user-info-grade {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:835px) {
+    .advantages-items-mobile {
+        transform: translateX(-15%);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu.active {
+        display: flex;
+    }
+
+    .header-menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #ffffff;
+        z-index: 100;
+    }
+
+    .header-menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        z-index: 101;
+    }
+
+    .header-menu ul li {
+        margin-bottom: 15px;
+    }
+
+    .header-menu ul li a {
+        color: #2c2c2c;
+        font-size: 25px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger svg {
+        margin-right: 20px;
+    }
+
+    .header-menu.open {
+        display: flex;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .header-menu .close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .main-info-title {
+        text-align: center;
+    }
+
+    .main-info-buttons-button.btn-play {
+        margin: 0 auto;
+    }
+
+    .main-img-info-price {
+        left: 72%;
+    }
+
+    .main-img-info-places {
+        right: 42%;
+    }
+
+    .advantages {
+        overflow: hidden;
+    }
+
+    .advantages-items-mobile {
+        transform: translateX(-15%);
+        overflow: hidden;
+    }
+
+    .program-item-text-link {
+        left: 25%;
+    }
+
+    .reviews-user-info {
+        margin-bottom: 30px;
+        position: static;
+    }
+
+    .gallery-items.tablet {
+        display: none;
+    }
+
+    .gallery-items.mobile {
+        display: block;
+    }
+
+    .slick-prev {
+        left: 40%;
+    }
+
+    .slick-next {
+        right: 40%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .advantages-items-mobile {
+        transform: translateX(-18%);
+    }
+}
+
+@media screen and (max-width:740px) {
+
+    .main-img-info-price {
+        left: 74%;
+    }
+
+    .main-img-info-places {
+        right: 41%;
+    }
+
+    .advantages-items-mobile {
+        transform: translateX(-17%);
+    }
+
+    .iceland-block {
+        align-items: start;
+    }
+
+    .iceland-block-info-text,
+    .iceland-block-img {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:698px) {
+
+    .main-img-info-price {
+        left: 76%;
+    }
+
+    .main-img-info-places {
+        right: 40%;
+    }
+
+    .advantages-items-mobile {
+        transform: translateX(-20%);
+    }
+}
+
+@media screen and (max-width:677px) {
+    .advantages-items-mobile {
+        transform: translateX(-20%);
+    }
+
+    .advantages-title {
+        width: 90%;
+        font-size: 32px;
+    }
+
+    .attractions-title {
+        font-size: 33px;
+    }
+
+    .reviews-user {
+        height: 770px;
+        grid-template-columns: 100%;
+        grid-template-rows: 251px 40% 36px;
+        gap: 30px;
+    }
+
+    .slick-prev {
+        left: 35%;
+    }
+
+    .slick-next {
+        right: 35%;
+    }
+}
+
+@media screen and (max-width:642px) {
+
+    .main-img-info-price {
+        left: 81%;
+    }
+
+    .main-img-info-places {
+        right: 36%;
+    }
+
+    .advantages-items-mobile {
+        transform: translateX(-22%);
+    }
+}
+
+@media screen and (max-width:599px) {
+    .advantages-items-mobile {
+        transform: translateX(-22%);
+    }
+}
+
+@media screen and (max-width:577px) {
+    .advantages-items-mobile {
+        transform: translateX(-27%);
+    }
+
+    .advantage-item:nth-child(3),
+    .advantage-item:nth-child(4),
+    .advantage-item:nth-child(5),
+    .advantage-item:nth-child(6) {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:525px) {
+
+    .main .container {
+        height: 1150px;
+    }
+
+    .main-img svg {
+        left: 13%;
+    }
+
+    .main-img-info-date {
+        bottom: 14%;
+        left: 21%;
+    }
+
+    .main-img-info-places {
+        bottom: 27%;
+        right: 40%;
+    }
+
+    .main-img-info-price {
+        left: 82%;
+        bottom: 28%;
+    }
+
+    .main-info-buttons-button.btn-black {
+        bottom: -94%;
+    }
+
+    .iceland-block-img {
+        height: 350px;
+    }
+
+    .iceland-block-img img {
+        width: 400px;
+        transform: translate(35px, 15%);
+    }
+
+    .advantages-items-mobile {
+        left: -10%;
+    }
+
+    .advantage-item:nth-child(3) {
+        left: 27%;
+    }
+
+    .advantage-item:nth-child(4) {
+        left: 27%;
+    }
+
+    .advantage-item:nth-child(5) {
+        left: 27%;
+    }
+
+    .advantage-item:nth-child(6) {
+        left: 27%;
+    }
+
+    .container.attraction {
+        grid-template-columns: 430px;
+    }
+
+    .attraction-item-img img {
+        width: 103%;
+    }
+
+    .slick-prev {
+        left: 35%
+    }
+
+    .slick-next {
+        right: 35%;
+    }
+
+    .program-item-btn,
+    .program-item-text-link {
+        left: 14%;
+    }
+
+    .program-item-text-about {
+        width: 100%;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+
+    .footer-content .logo {
+        margin: 0 auto;
+    }
+
+    .footer-content-media {
+        justify-content: space-between;
+    }
+
+    .footer-content-phone {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:477px) {
+    .main-info-title {
+        font-size: 45px;
+    }
+
+    .main-info-text {
+        bottom: -45%;
+        font-size: 30px;
+    }
+
+    .main-info-buttons-button.btn-black {
+        bottom: -103%;
+    }
+
+    .iceland-block-info {
+        width: 100%;
+    }
+
+    .iceland-block-img {
+        width: 380px;
+    }
+
+    .iceland-block-img img {
+        width: 380px;
+        transform: translate(35px, 18%);
+    }
+
+    .advantages-items-mobile {
+        left: -19%;
+    }
+
+    .advantage-item:nth-child(3) {
+        left: 20%;
+    }
+
+    .advantage-item:nth-child(4) {
+        left: 20%;
+    }
+
+    .advantage-item:nth-child(5) {
+        left: 20%;
+    }
+
+    .advantage-item:nth-child(6) {
+        left: 20%;
+    }
+
+    .attractions-map {
+        width: 95%;
+    }
+
+    .attractions-map img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .attractions-map svg {
+        bottom: 22%;
+    }
+
+    #one {
+        left: 17%;
+    }
+
+    #two {
+        bottom: 42%;
+    }
+
+    #three {
+        bottom: 31%;
+        left: 21%;
+    }
+
+    #four {
+        bottom: 22%;
+        left: 28%;
+    }
+
+    #five {
+        bottom: 20%;
+    }
+
+    .attraction-item {
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .attraction-item-text {
+        width: 90%;
+    }
+
+    .attraction-item-img img {
+        width: 103%;
+        top: 50%;
+        right: 15%;
+        transform: translateY(-50%);
+    }
+
+    .program-items-img {
+        width: 335px;
+        height: 400px;
+        margin-top: 45%;
+    }
+
+    .program-items-img img {
+        width: 345px;
+    }
+
+    .program-item-text-about {
+        margin-bottom: 35px;
+    }
+
+    .slick-prev {
+        left: 30%;
+    }
+
+    .slick-next {
+        right: 30%;
+    }
+}
+
+@media screen and (max-width:444px) {
+
+    .main-img svg {
+        bottom: 20%;
+        transform: rotateZ(-19deg);
+    }
+
+    .main-img-info-date {
+        bottom: 12%;
+        left: 20%;
+    }
+
+    .main-img-info-price {
+        left: 80%;
+        bottom: 34%;
+    }
+
+    .iceland-block-info {
+        width: 90%;
+    }
+
+    .iceland-block-img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .iceland-block-img img {
+        width: 320px;
+        transform: translate(35px, 24%);
+    }
+
+    .container.attraction {
+        grid-template-rows: 440px 517px;
+    }
+
+    .attraction-item {
+        width: 74%;
+    }
+
+
+    .attraction-item-img {
+        width: 85%;
+    }
+
+    .attractions-map {
+        width: 92%;
+    }
+
+    .program-items {
+        height: 870px;
+        align-items: start;
+    }
+
+    .program-items-img {
+        width: 320px;
+        height: 370px;
+    }
+
+    .program-items-img img {
+        width: 325px;
+    }
+
+    .program-item-text-about {
+        bottom: 2%;
+    }
+
+    .program-item-btn,
+    .program-item-text-link {
+        left: 0;
+    }
+
+    .reviews-user {
+        grid-template-rows: 318px 30% 36px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .advantages-items-mobile {
+        transform: translateX(-30%);
+    }
+}
+
+@media screen and (max-width:375px) {
+    .main-img {
+        background-image: url("../img/main-img-mobile.png");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .main-img img {
+        display: none;
+    }
+
+    .main-img svg {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 23%;
+        margin: 0;
+        transform: rotateZ(-19deg);
+    }
+
+    .main-info-title {
+        font-size: 30px;
+        margin-top: 55px;
+    }
+
+    .main-info-buttons-button.btn-play {
+        font-size: 15px;
+    }
+
+    .main-info-buttons-button.btn-play img {
+        padding: 15px;
+    }
+
+    .main-info-text {
+        bottom: -68%;
+    }
+
+    .main-info-buttons-button.btn-black {
+        bottom: -155%;
+    }
+
+    .main-img-info-date {
+        bottom: 14%;
+        left: 7%;
+    }
+
+    .main-img-info-price {
+        left: 71%;
+        bottom: 37%;
+    }
+
+    .main-img-info-places {
+        bottom: 30%;
+        right: 52%;
+    }
+
+    .iceland-block {
+        width: 90%;
+        align-items: start;
+    }
+
+    .iceland-block-info-title {
+        font-size: 25px;
+        margin-left: 0;
+    }
+
+    .iceland-block-info-text {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .iceland-block-img {
+        width: 231px;
+        height: 260px;
+    }
+
+    .iceland-block-img img {
+        width: 279px;
+        height: 186px;
+        transform: translate(25px, 18%);
+    }
+
+
+    .advantages-title {
+        font-size: 25px;
+    }
+
+    .advantages-items-mobile {
+        transform: translateX(-32%);
+    }
+
+    .advantage-item:nth-child(3),
+    .advantage-item:nth-child(4),
+    .advantage-item:nth-child(5),
+    .advantage-item:nth-child(6) {
+        left: 15%;
+    }
+
+    .attractions-title {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .container.attraction {
+        grid-template-columns: 370px;
+        grid-template-rows: 445px 510px;
+    }
+
+    .attractions-map .attractions-map-desktop {
+        display: none;
+    }
+
+    .attractions-map .attractions-map-mobile {
+        display: block;
+        bottom: 30%;
+        left: 22%;
+    }
+
+    #one {
+        top: 42%;
+    }
+
+    #two {
+        bottom: 41%;
+    }
+
+    #three {
+        bottom: 34%;
+        left: 22%;
+    }
+
+    #four {
+        bottom: 27%;
+        left: 28%;
+    }
+
+    #five {
+        bottom: 27%;
+    }
+
+    .attractions-map-name {
+        top: 54%;
+    }
+
+    .attraction-item {
+        width: 95%;
+    }
+
+    .attraction-item-img {
+        width: 290px;
+        height: 239px;
+    }
+
+    .attraction-item-img img {
+        width: 290px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .video {
+        height: 350px;
+    }
+
+    .video-img {
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .video-img img {
+        height: 100%;
+    }
+
+    .main-info-buttons-button.btn-play.btn-video {
+        top: 55%;
+        left: 59%;
+    }
+
+    .reviews-user {
+        height: 770PX;
+        grid-template-rows: 378px 35% 11px;
+        gap: 0;
+    }
+
+    .reviews-user-info-text {
+        font-size: 15px;
+    }
+
+    .order {
+        background-image: url("../img/order-mobile.png");
+        background-size: cover;
+    }
+
+    .order-title {
+        font-size: 25px;
+    }
+
+    .order-form {
+        width: 290px;
+    }
+
+    .order-form-amount {
+        grid-template-columns: repeat(7, 31px);
+        grid-column-gap: 12px;
+    }
+
+    .order-form-button {
+        padding: 17px 70px;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .main .container {
+        height: 1050px;
+    }
+
+    .main-info-text {
+        bottom: -50%;
+    }
+
+    .main-info-buttons-button.btn-black {
+        bottom: -128%;
+    }
+
+    .main-img-info-date {
+        bottom: 14%;
+        left: 9%;
+    }
+
+    .main-img-info-price {
+        left: 75%;
+        bottom: 40%;
+    }
+
+    .main-img-info-places {
+        bottom: 33%;
+        right: 45%;
+    }
+
+    .iceland-block-img img {
+        width: 248px;
+    }
+
+    .advantages-items-mobile {
+        left: -35%;
+    }
+
+    .advantage-item:nth-child(3),
+    .advantage-item:nth-child(4),
+    .advantage-item:nth-child(5),
+    .advantage-item:nth-child(6) {
+        left: 7%;
+    }
+
+    .container.attraction {
+        grid-template-columns: 320px;
+        grid-template-rows: 445px 510px;
+    }
+
+    .attraction-item {
+        width: 290px;
+    }
+
+    .attraction-item-img {
+        width: 218px;
+        height: 256px;
+    }
+
+    .attraction-item-img img {
+        width: 255px;
+        height: 212px;
+    }
+
+    .video {
+        height: 242px;
+    }
+
+    .main-info-buttons-button.btn-play.btn-video {
+        top: 43%;
+    }
+
+    .program {
+        padding: 90px 0 90px 0;
+    }
+
+    .program-title {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .program-items {
+        height: 745px;
+
+    }
+
+    .program-item {
+        height: 525px;
+    }
+
+    .program-item-text-day {
+        margin-bottom: 30px;
+    }
+
+    .program-item-text-name {
+        top: 8%;
+    }
+
+    .program-items-img {
+        width: 243px;
+        height: 274px;
+        margin-top: 48%;
+    }
+
+    .program-items-img img {
+        width: 250px;
+    }
+
+    .program-item-text-about {
+        width: 280px;
+        bottom: -25%;
+    }
+
+    .program-item-text-link {
+        bottom: -30px;
+        right: 0;
+    }
+
+    .slick-prev {
+        left: 25%;
+    }
+
+    .slick-next {
+        right: 25%;
+    }
+
+}
