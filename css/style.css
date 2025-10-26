@@ -8,21 +8,25 @@
 @font-face {
     font-family: Montserrat;
     src: url("../fonts/Montserrat-Regular.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: Montserrat SemiBold;
     src: url("../fonts/Montserrat-SemiBold.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: Acquestscript;
     src: url("../fonts/Acquestscript.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: Muller;
     src: url("../fonts/Muller-Trial-Regular.ttf");
+    font-display: swap;
 }
 
 body {
@@ -861,7 +865,7 @@ body {
 /*Блок с формой*/
 .order {
     padding: 90px 0 125px 0;
-    background-image: url("../img/img_form.png");
+    background-image: url("../img/img_form.webp");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
