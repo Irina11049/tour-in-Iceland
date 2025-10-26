@@ -865,7 +865,7 @@ body {
 /*Блок с формой*/
 .order {
     padding: 90px 0 125px 0;
-    background-image: url("../img/img_form.webp");
+    background-image: url("../img/form-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
